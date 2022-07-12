@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e31837;
+	font-size: 130%;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: helvetica;
+	text-align: center;
+	margin-bottom: 30px
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: helvetica;
+	font-size: 13px;
+	position: relative;
+	overflow: auto;
+}
+
+.section {
+	background-color: #CDC884;
+	border: 2px solid black;
+	text-align: justify;
+	position: relative;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 1px;
+	height: 150px;
+	overflow: auto;
+}
+
+span {
+	float: right;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	width: 150px;
+	top: 0;
+	right: 0;
+	margin: 0;
+	position: absolute;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+#Pizza {
+	background-color: #f16a73;
+	color: black;
+}
+
+#Burger {
+	background-color: #FFB7AE;
+	color: black;
+}
+
+#Dessert {
+	background-color:#62ccf5;
+	color: black;
+}
+
+.food {
+	width: 100%;
+
+}
+/* Large view */
+
+@media (min-width: 992px ) {
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+/* Tablet view */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+}
