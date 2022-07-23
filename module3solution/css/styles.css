@@ -1,0 +1,79 @@
+body{
+	background-color: #3B7197;
+	}
+
+#header-nav {
+  background-color: #A1E1FA;
+  border-radius: 0;
+  border: 0;
+ }
+
+.navbar-brand {
+  padding-top: 1px;
+  
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #74BDE0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: 0.25;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#nav-list a {
+  background-color: #74BDE0;
+  text-align: center;
+}
+#nav-list a {
+  
+  background: #4A8DB7;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #3B7197;
+  bottom: 40px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -1px;
+  margin-bottom: 40px;
+}
+
+.text-center h1{ /* Our Menu */
+ 	font-family: 'Lora', serif;
+  	color: #A1E1FA;
+  	font-size: 2.0em;
+  	font-weight: bold;
+  	text-align: center;
+  }
+
+.text-center h2{ /* Chicken */
+ 	font-family: 'Oxygen', serif;
+  	color: #A1E1FA;
+  	font-size: 1.8em;
+  	font-weight: bold;
+  	text-align: center;
+  }
+
+.section{
+	top: 5px;
+	background-color: darkgray;
+  	margin: 10px;
+  	padding: 5px;
+  	height: auto;
+  	font-family: 'Oxygen', serif;
+  }
